@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <dirent.h>
@@ -29,7 +28,7 @@ int main(int argc, char *argv[]) {
     while ((entry = readdir(dir)) != NULL) {
         if (regexec(&regex, entry->d_name, 0, NULL, 0) == 0) {
             char *oldname = entry->d_name;
-            char *newname = malloc(strlen(oldname) - strlen(argv[1]) + strlen(argv[2]));
+            char *newname = malloc(strlen(oldname) - strlen(argv[1])+strlen(argv[2]));
             if (newname == NULL) {
                 printf("Error allocating memory.\n");
                 closedir(dir);
