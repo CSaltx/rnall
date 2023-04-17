@@ -16,7 +16,7 @@
 - [General Project Information](#general-project-information)
 - [Introduction](#introduction)
 - [Information](#information)
-- [Documentation](#documentation)
+- [Installation and Usage](#installation)
 - [Technologies](#technologies)
 
 ### General Project Information
@@ -51,7 +51,7 @@ We integrated Firebase and Firestore to help with the hosting but also to provid
 
 **_NOTE:_** See Documentation section for information on how to download and run locally or visit url provided above to explore the website.
 
-### Documentation
+### Installation
 
 <details><summary><b>Show instructions for installation</b></summary>
   <br/>
