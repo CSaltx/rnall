@@ -88,4 +88,4 @@ Project was created with:
 
 - C
 - Ubuntu
-- Linux kernel
+- GNU core utilities
