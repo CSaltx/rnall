@@ -88,4 +88,5 @@ Project was created with:
 
 - C
 - Ubuntu
+- Linux
 - GNU core utilities
