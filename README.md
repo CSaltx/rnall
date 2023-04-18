@@ -21,35 +21,27 @@
 
 ### General Project Information
 
-**Title:** Project 4 - Gamerz <br/>
+**Title:** Operating Systems Project - rnall <br/>
 **Department:** Computer Science
 
 **Name:** Coby Schumitzky<br/>
-**Name:** Jerahmeel Mendoza<br/>
-**Name:** Thomas Powell<br/>
-**Name:** Christine Li<br/>
-**Date:** 12/16/2022
+**Name:** Aaron Floreani<br/>
+**Name:** Shaun Seah<br/>
+**Name:** Ryan Nguyen<br/>
+**Date:** 4/19/2023
 
-**Course:** Website Application Development<br/>
-**Section:** CMSI 2021
+**Course:** Operating Systems<br/>
+**Section:** CMSI 3510
 
 ### Introduction
 
-Have you ever felt burnt out of a game? A game that once brought you joy, now feeling empty.
-
-That is where this website comes in, providing you with real-time updates and up-to-date reccomendations based on your favorite game. This website was built using a diverse tech stack based around the React Javascript framework. We also used firebase and firestore for its NoSQL (document-based) database and for its hosting capabilities.
-
-This website aims to provide you with the spark that once highlighted your days and gave you a drive to get better or a relief from your everyday life. Get to gaming:
-
-<img src="https://media.tenor.com/Lu_5jCElEWkAAAAC/start-press-button.gif" width=300 />
+Have you wanted a command to rename multiple file names using a single command? Now you can with the “rnall” command, which is short for "rename all".
 
 ### Information
 
-This project was built using the React JS framework alongside React Router, CSS, and Firebase utilities to build this application. We used various components to build this website from the ground up!
+This new linux coreutil allows for matching different patterns in file names and replacing them with the desired string or pattern. 
 
-We integrated Firebase and Firestore to help with the hosting but also to provide a document-based NoSQL database to keep track of user's liked games to provide a more interactive, personalized experience to end-users.
-
-**_NOTE:_** See Documentation section for information on how to download and run locally or visit url provided above to explore the website.
+**_NOTE:_** See Documentation section for information on how to download and run locally.
 
 ### Installation
 
