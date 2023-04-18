@@ -39,7 +39,7 @@ Have you wanted a command to rename multiple file names using a single command? 
 
 ### Information
 
-This new linux coreutil allows for matching different patterns in file names and replacing them with the desired string or pattern. 
+This new linux coreutil allows for matching different patterns in file names and replacing them with the desired string or pattern. For example, the file names "example1.txt" and "example2.txt" can be converted to "example01.txt" and "example02.txt" with a single command.
 
 **_NOTE:_** See Documentation section for information on how to download and run locally.
 
@@ -86,7 +86,6 @@ First, Click Code on main repo page to get HTTPS or SSH url and then open person
 
 Project was created with:
 
-- Node version: 19.1.0
-- React version: 18.2.0
-- React Router version: 6.4.4
-- Firebase version: 9.14.0
+- C
+- Ubuntu
+- Linux kernel
