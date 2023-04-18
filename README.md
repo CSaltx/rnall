@@ -41,7 +41,7 @@ Have you wanted a command to rename multiple file names using a single command? 
 
 This new linux coreutil allows for matching different patterns in file names and replacing them with the desired string or pattern. For example, the file names "example1.txt" and "example2.txt" can be converted to "example01.txt" and "example02.txt" with a single command.
 
-**_NOTE:_** See Documentation section for information on how to download and run locally.
+**_NOTE:_** See the installation section for information on how to download and run locally.
 
 ### Installation
 
