@@ -80,6 +80,14 @@ First, Click Code on main repo page to get HTTPS or SSH url and then open person
 
 </details>
 
+<details><summary><b>Show Instructions for Usage</b></summary>
+  
+  ```sh
+    rnall <regex_1> <regex_2> <directory_path (optional)>
+  ```
+  
+</details>
+
 ---
 
 ### Technologies
