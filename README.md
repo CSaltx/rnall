@@ -41,7 +41,7 @@ As a programmer or general computer user, there has been or will come a time whe
 
 ### Information
 
-This new module allows a superuser to change multiple filenames using a single command. Imagine a scenario where you are creating a OOP project and wanted to create some files for each class but decided to name them test in the meantime:
+This new module allows a user to change multiple filenames using a single command. Imagine a scenario where you are creating a OOP project and wanted to create some files for each class but decided to name them test in the meantime:
 ```bash
 >>> sudo touch test1 test2 test3
 ```
