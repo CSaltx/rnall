@@ -1,6 +1,6 @@
-## Rnall
+## Rnall: A New Coreutil
 
-### A NEW LINUX COREUTIL
+### A module built to optimize your workflow
 
 <div align="center">
   
@@ -16,7 +16,7 @@
 - [General Project Information](#general-project-information)
 - [Introduction](#introduction)
 - [Information](#information)
-- [Installation and Usage](#installation)
+- [Usage](#usage)
 - [Technologies](#technologies)
 
 ### General Project Information
@@ -35,50 +35,25 @@
 
 ### Introduction
 
-Have you wanted a command to rename multiple file names using a single command? Now you can with the “rnall” command, which is short for "rename all".
+Everyone makes typos.
+
+As a programmer or general computer user, there has been or will come a time when you want to alter the names of a file or multiple files. In the past, there has been the rn (rename) command but this is not inherent on Linux or in the Coreutils. Additionally, you cannot rename mulitple files using rn and thus, you will find a massive decrease in efficiency with this. As a result, there have been iterations such as the Debian Perl version of the rename command but we still saw a problem and an issue to solve. For this, we made rnall (short for rename all), a coreutil that uses mostly base C code along with a few header files to incorporate mass renaming capabilities to any linux system.
 
 ### Information
 
-This new linux coreutil allows for matching different patterns in file names and replacing them with the desired string or pattern. For example, the file names "example1.txt" and "example2.txt" can be converted to "example01.txt" and "example02.txt" with a single command.
+This new module allows a superuser to change multiple filenames using a single command. Imagine a scenario where you are creating a OOP project and wanted to create some files for each class but decided to name them test in the meantime:
+```bash
+>>> sudo touch test1 test2 test3
+```
+Now after creating the project and testing, you want to push to production but with these filenames, it wouldn't be very professional. So you decide to make it better. It wouldn't be very efficient to rename each file individually or worse move the contents of each file to a new one. Well now you can do it with a single command using rnall.
 
-**_NOTE:_** See the installation section for information on how to download and run locally.
+**_NOTE:_** See install.md for information on how to download and install. See Usage for information on formatting.
 
-### Installation
-
-<details><summary><b>Show instructions for installation</b></summary>
-  <br/>
-First, Click Code on main repo page to get HTTPS or SSH url and then open personal terminal (for this demonstration we will use Mac terminal) <br />
+### Usage
   
-<br />In your terminal (Mac Terminal as example): <br />
-1. Clone repo
-
-```sh
-  $ git clone {enter url here}
-```
-
-2. CD into folder
-
-```sh
-  $ cd gamedev
-```
-
-3. If using VSCode with adequate setup, otherwise skip:
-
-```sh
-  $ code .
-```
-
-> **_NOTE:_** the API key was used in a .env file and was not added to the GitHub Repository for security purposes so you must make an API key with RAWGApi to run and ensure that it is setup using the requisite .env file.
-
-</details>
-
-<details><summary><b>Show Instructions for Usage</b></summary>
-  
-  ```sh
-    rnall <regex_1> <regex_2> <directory_path (optional)>
+  ```py
+    rnall <format_1> <format_2> <directory_path (optional)>
   ```
-  
-</details>
 
 ---
 
@@ -86,7 +61,7 @@ First, Click Code on main repo page to get HTTPS or SSH url and then open person
 
 Project was created with:
 
-- C
-- Ubuntu
-- Linux
-- GNU core utilities
+- C v17
+- GCC v13.1
+- Ubuntu v22.10
+- GNU Coreutils
