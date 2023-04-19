@@ -5,7 +5,7 @@
 #include <string.h>
 
 int main(int argc, char *argv[]) {
-    if (argc < 3) {
+    if (argc < 3 || argc > 4) {
         printf("Usage: %s regex_one regex_two [directory_path]\n", argv[0]);
         return 1;
     }
