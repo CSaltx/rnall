@@ -39,7 +39,7 @@
     ```
     Now you can run rnall globally but remeber you must use it with the sudo prefix unless you want to give it root access rights which you can do with this command
     ```sh
-      sudo chmod +x /usr/local/bin/mycoreutil
+      sudo chmod +x /usr/local/bin/rnall
     ```
   -  Otherwise, you can run:
      ```sh
